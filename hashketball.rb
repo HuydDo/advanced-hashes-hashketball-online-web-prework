@@ -242,7 +242,7 @@ def player_stats(name)
               data.each do |player, stat|
 
                 if player == name
-                  stats = game_hash[:location][:attribute][:player]
+                  stats = game_hash[:location][:attribute]
                   binding.pry
                   # stat.each do |item,value|
                   #   if item == :points
