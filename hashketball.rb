@@ -240,15 +240,9 @@ def player_stats(name)
       team_data.each do |attribute, data|
           if attribute == :players
               data.each do |player, stat|
-
                 if player == name
                   stats = stat
                   binding.pry
-                  # stat.each do |item,value|
-                  #   if item == :points
-                  #     point = value
-                  #   end
-                  # end
                 end
              end
           end
